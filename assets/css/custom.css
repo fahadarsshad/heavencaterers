@@ -1,0 +1,89 @@
+.no-margin{
+	margin: 0px;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.gallery img{
+	width:100px;
+	height:100px;
+}
+
+.modalphotos img{
+	width:100px;
+	height:100px;
+}
+#modalimage{
+	width: 100%;
+	hight:100%;
+}
+
+.slider{
+	height: 300px;
+	clear: both;
+}
+
+.content1 .event-section{
+	height: 300px;
+}
+
+.content1{
+	margin-top: 5px;
+}
+
+.content2 .event-section{
+	height: 300px;
+}
+
+.content2{
+	margin-top: 5px;
+}
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.header-left-menu .navbar{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.header-right-menu .navbar{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+.branding img{
+	width: 200px;
+	height: 70px;
+}
+
+.branding {
+	text-align: center;
+	padding: 5px;
+}
+
+.wrapper{
+	background:#ffffff;	
+}
+.panel .panel-heading{
+	text-align: center;
+	font-size: 20px;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: black;
+}
+
+address{
+	text-align: center;
+	color: #000000; 
+} 
