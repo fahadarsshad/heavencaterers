@@ -1,7 +1,12 @@
-<div class="col-lg-8">
-	<?php include_once( base_url()."templates/slider.php");  ?>
+<div class="row">
+	<div class="col-lg-8">
+		<?php include_once(APPPATH.'views/templates/slider.php'); ?>
+	</div>
+	
+	<div class="col-lg-4">
+		<?php include_once(APPPATH.'views/templates/address.php'); ?>
+	</div>
 </div>
-
 <div class="row content1">
 	 		<div class="col-lg-4 event-section">
 	 				<div class="panel panel-danger">
