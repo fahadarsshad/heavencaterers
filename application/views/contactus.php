@@ -7,13 +7,17 @@
 	</div>
 	
 	<div class="row">
-		<div class="col-lg-10 col-lg-offset-1">
+		<div class="col-lg-5 col-lg-offset-1">
 			<h2>Contact Us</h2>
+		</div>
+		
+		<div class="col-lg-2 col-lg-offset-1">
+			<h2>Find Us</h2>
 		</div>
 	</div>
 
 	<div class='row contact-form'>
-		<div class="col-lg-10 col-lg-offset-1">
+		<div class="col-lg-6 col-lg-offset-1">
 			<form>
 				<div class="form-group">
 					<label for="yourname">Your Name</label>
@@ -34,6 +38,9 @@
 				
 				<input type="submit" class="btn btn-danger" value="Submit" />
 			</form>
+		</div>
+		<div class="col-lg-4 map">
+			<?php if(isset($map['html'])){ echo $map['html']; } ?>
 		</div>	
 	</div>	
 </div>

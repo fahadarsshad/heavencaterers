@@ -11,6 +11,11 @@
   		<script type="text/javascript" src="<?php echo base_url().'assets/js/bootstrap.min.js'?>"></script>
   		<script type="text/javascript" src="<?php echo base_url().'assets/js/bootstrap.js'?>"></script>
 		<script type="text/javascript" src="<?php echo base_url().'assets/js/custom.js'; ?>"></script>
+		<?php
+		if(isset($map['js'])){
+			echo $map['js'];
+		}
+		 ?>
 	</head>
 
 	<body class="bg-danger">
@@ -40,7 +45,7 @@
 					<div class="navbar navbar-inverse">
 						<ul class="nav nav-pills">
 							<li><a href="<?php echo base_url().'index.php/home/index';?>">Home</a></li>
-							<li><a href="#">About</a></li>
+							<li><a href="<?php echo base_url().'index.php/home/aboutus';?>">About</a></li>
 							<li><a href="<?php echo base_url().'index.php/home/contactus';?>">Contact Us</a></li>
 						</ul>
 					</div>
