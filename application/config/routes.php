@@ -37,7 +37,6 @@
 | in the URL cannot be matched to a valid route.
 |
 */
-$route['home/_contactus'] = "home/_contactus";
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
