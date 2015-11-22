@@ -36,23 +36,23 @@
 			</div><!--end of top-menu-->
 		
 			<div class="row header-content">
-				<div class="col-lg-4 header-left-menu">
+				<div class="col-lg-5 header-left-menu">
 					<div class="navbar navbar-inverse">
 						<ul class="nav nav-pills">
-							<li><a href="#">Home</a></li>
+							<li><a href="<?php echo base_url().'index.php/home/index';?>">Home</a></li>
 							<li><a href="#">About</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="<?php echo base_url().'index.php/home/contactus';?>">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
 				
-				<div class="col-lg-4 header-logo">
+				<div class="col-lg-2 header-logo">
 					<div class="branding">
 						<img src="<?php echo base_url().'assets/images/logo_red1.png' ?>">
 					</div>
 				</div>
 				
-				<div class="col-lg-4 header-right-menu">
+				<div class="col-lg-5 header-right-menu">
 					<div class="navbar navbar-inverse">
 						<ul class="nav nav-pills">
 							<li class="dropdown">
@@ -65,8 +65,8 @@
 									<li><a tabindex="-1" href="">Valima</a></li>
 								</ul>	
 							</li>
-							<li><a href="#">Concert</a></li>
-							<li><a href="#">Party</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Decorators</a></li>
 						</ul>
 					</div>
 				</div>

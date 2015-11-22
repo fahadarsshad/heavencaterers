@@ -11,11 +11,14 @@
 	 		<div class="col-lg-4 event-section">
 	 				<div class="panel panel-danger">
 	 					<div class="panel-heading">
-	 						Stage	
+	 						Wedding	
 	 					</div>
 	 					
 	 					<div class="panel-body">
 	 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/7.jpg'?>" />
+	 						<div class="details">
+	 							Our Catering House plans well-organised & luxurious weddings providing highly exclusive services...
+	 						</div>
 	 					</div>
 	 				</div>
 	 		</div>
@@ -23,11 +26,14 @@
 	 		<div class="col-lg-4 event-section">
 	 				<div class="panel panel-danger">
 	 					<div class="panel-heading">
-	 						Meeting	
+	 						Decorators	
 	 					</div>
 	 					
 	 					<div class="panel-body">
 	 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/8.jpg'?>" />
+	 						<div class="details">
+	 							For elegant luncheons , classy dinners , celebrations and gatterings we decorate your environment much more Luxurious than your Imaginations...
+	 						</div>
 	 					</div>
 	 				</div>
 	 		</div>
@@ -35,50 +41,15 @@
 	 		<div class="col-lg-4 event-section">
 	 				<div class="panel panel-danger">
 	 					<div class="panel-heading">
-	 						Party	
+	 						Events	
 	 					</div>
 	 					
 	 					<div class="panel-body">
 	 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/9.jpg'?>" />
+	 						<div class="details">
+	 							With our mannagement, make your events memorable. We fulfill all your event's requriments & comfortness under one place...	
+	 						</div>
 	 					</div>
 	 				</div>
 	 		</div>
 	 	</div> <!--end of content1-->
-	 	
-	 	<div class="row content2">
-	 		<div class="col-lg-4 event-section">
-	 				<div class="panel panel-danger">
-	 					<div class="panel-heading">
-	 						Mehdi	
-	 					</div>
-	 					
-	 					<div class="panel-body">
-	 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/7.jpg'?>" />
-	 					</div>
-	 				</div>
-	 		</div>
-	 		
-	 		<div class="col-lg-4 event-section">
-	 				<div class="panel panel-danger">
-	 					<div class="panel-heading">
-	 						Barat	
-	 					</div>
-	 					
-	 					<div class="panel-body">
-	 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/8.jpg'?>" />
-	 					</div>
-	 				</div>
-	 		</div>
-	 		
-	 		<div class="col-lg-4 event-section">
-	 				<div class="panel panel-danger">
-	 					<div class="panel-heading">
-	 						Valima	
-	 					</div>
-	 					
-	 					<div class="panel-body">
-	 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/9.jpg'?>" />
-	 					</div>
-	 				</div>
-	 		</div>
-	 	</div> <!--end of content2-->

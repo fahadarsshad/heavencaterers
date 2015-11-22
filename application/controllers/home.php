@@ -9,5 +9,11 @@ class Home extends CI_Controller{
 		$this->load->view('home');
 		$this->load->view('templates/footer');
 	}
+	
+	public function contactus(){
+		$this->load->view('templates/header');
+		$this->load->view('contactus');
+		$this->load->view('templates/footer');
+	}
 }
 ?>

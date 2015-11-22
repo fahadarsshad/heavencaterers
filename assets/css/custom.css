@@ -26,19 +26,19 @@
 }
 
 .content1 .event-section{
-	height: 300px;
+	height: 400px;
 }
+
+.content1 .event-section .details{
+	height: 100px;
+}
+
 
 .content1{
-	margin-top: 5px;
+	margin-top: 0px;
 }
-
-.content2 .event-section{
-	height: 300px;
-}
-
-.content2{
-	margin-top: 5px;
+.content1 .panel-heading:hover{
+	background: #000;
 }
 
 body{
@@ -86,4 +86,8 @@ body{
 address{
 	text-align: center;
 	color: #000000; 
+}
+
+.address .panel-body{
+	font-size: 0.8em;
 } 
