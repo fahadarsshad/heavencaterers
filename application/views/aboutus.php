@@ -23,10 +23,19 @@
 		</div>
 		
 		<div class="col-lg-5 more_about">
-			<ul>
-				<li>Events Gallery</li>
-				<li>Vanues</li>
-			</ul>
+			<div class="list-group">
+			  <a href="#" class="list-group-item active">
+			    More Links
+			  </a>
+			  <a href="#" class="list-group-item">Gallery</a>
+			  <a href="#" class="list-group-item">Vanus</a>
+			  <a href="#" class="list-group-item">Locations</a>
+			  <a href="#" class="list-group-item">Menus</a>
+			  <a href="#" class="list-group-item">Menus</a>
+			  <a href="#" class="list-group-item">Menus</a>
+			  <a href="#" class="list-group-item">Menus</a>
+			  <a href="#" class="list-group-item">Menus</a>
+			</div>
 		</div>	
 	</div>	
 </div>
