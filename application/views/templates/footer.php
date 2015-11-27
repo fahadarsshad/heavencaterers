@@ -8,6 +8,6 @@
 			</ul>
 		</nav>
 	</footer>
-</div>
+</div><!--container wrapper-->
 	</body>
 </html>
