@@ -1,6 +1,5 @@
-
-	<div class="page-footer row">
-		<nav class="col-lg-12">
+<div class="page-footer row">
+		<nav class="col-lg-12 col-md-12">
 			<ul class="breadcrumb">
 				<li><a href="">Touch With Us</a></li>
 				<li><a href="">Why We are Better</a></li>
@@ -11,5 +10,5 @@
 		</nav>
 	</div>
 </div><!--container wrapper-->
-	</body>
+</body>
 </html>
