@@ -22,7 +22,7 @@
 	<body class="body-bg-color">
 	<div class="container wrapper">
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-12 col-md-12">
 				<div class="page-header no-margin">
 					
 				</div><!--end of page-header-->
@@ -30,21 +30,21 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-3">
 				<?php include_once(APPPATH.'views/templates/address.php'); ?>
 				
-				<div class="">
+				<div class="social">
 		  			<a class="btn btn-block btn-social btn-facebook">
 		    			<span class="fa fa-facebook"></span> Like Us On facebook
 		 			</a>	
 				</div>
 			</div>
 
-			<div class="col-lg-6">
+			<div class="col-lg-6 col-md-6">
 				<?php include_once(APPPATH.'views/templates/slider.php'); ?>
 			</div>
 	
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-3">
 				<div class="list-group">
 					  <a href="#" class="list-group-item">Home</a>
 					  <a href="#" class="list-group-item">About</a>
@@ -56,7 +56,7 @@
 					  <a href="#" class="list-group-item">Gallery Us</a>
 				</div>
 				
-				<div class="">
+				<div class="social">
 					<a class="btn btn-block btn-social btn-twitter">
 		    			<span class="fa fa-twitter"></span> Tweet Us On Twitter
 		  			</a>
@@ -64,7 +64,7 @@
 			</div>
 		</div>
 		<div class="row content1">
-			 		<div class="col-lg-4 event-section">
+			 		<div class="col-lg-4 col-md-4 event-section">
 			 				<div class="panel panel-danger">
 			 					<div class="panel-heading">
 			 						Wedding	
@@ -79,7 +79,7 @@
 			 				</div>
 			 		</div>
 			 		
-			 		<div class="col-lg-4 event-section">
+			 		<div class="col-lg-4 col-md-4 event-section">
 			 				<div class="panel panel-danger">
 			 					<div class="panel-heading">
 			 						Decorators	
@@ -94,7 +94,7 @@
 			 				</div>
 			 		</div>
 			 		
-			 		<div class="col-lg-4 event-section">
+			 		<div class="col-lg-4 col-md-4 event-section">
 			 				<div class="panel panel-danger">
 			 					<div class="panel-heading">
 			 						Events	
@@ -112,7 +112,7 @@
 	 	
 	 	
 	 <div class="page-footer row">
-		<nav class="col-lg-12">
+		<nav class="col-lg-12 col-md-12">
 			<ul class="breadcrumb">
 				<li><a href="">Touch With Us</a></li>
 				<li><a href="">Why We are Better</a></li>
