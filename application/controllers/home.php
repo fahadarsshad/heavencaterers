@@ -10,6 +10,18 @@ class Home extends CI_Controller{
 		$this->load->view('templates/footer');
 	}
 	
+	public function gallery(){
+		$this->load->view('templates/header');
+		$this->load->view('gallery');
+		$this->load->view('templates/footer');
+	}
+	
+	public function aboutus(){
+		$this->load->view('templates/header');
+		$this->load->view('aboutus');
+		$this->load->view('templates/footer');
+	}
+	
 	public function contactus(){
 		$this->load->library('googlemaps');
 		$marker = array();
@@ -27,12 +39,6 @@ class Home extends CI_Controller{
 		
 		$this->load->view('templates/header',$data);
 		$this->load->view('contactus',$data);
-		$this->load->view('templates/footer');
-	}
-	
-	public function aboutus(){
-		$this->load->view('templates/header');
-		$this->load->view('aboutus');
 		$this->load->view('templates/footer');
 	}
 }

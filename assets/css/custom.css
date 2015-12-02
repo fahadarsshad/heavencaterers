@@ -117,6 +117,18 @@
 	background: #FFF;
 }
 
+.photo-gallery{
+	height: 395px;
+	background: #A8342C;
+	overflow: hidden;
+}
+
+.aboutus{
+	height: 395px;
+	background: #A8342C;
+	overflow: hidden;
+}
+
 .content1 .event-section{
 	height: 400px;
 }
