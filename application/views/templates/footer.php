@@ -6,7 +6,7 @@
 			 					</div>
 			 					
 			 					<div class="panel-body">
-			 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/7.jpg'?>" />
+			 						<img class="img-responsive" src="<?php echo base_url().'assets/images/wedding_img.jpg'?>" />
 			 						<div class="details">
 			 							Our Catering House plans well-organised & luxurious weddings providing highly exclusive services...
 			 						</div>
@@ -21,7 +21,7 @@
 			 					</div>
 			 					
 			 					<div class="panel-body">
-			 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/8.jpg'?>" />
+			 						<img class="img-responsive" src="<?php echo base_url().'assets/images/decore_img.jpg'?>" />
 			 						<div class="details">
 			 							For elegant luncheons , classy dinners , celebrations and gatterings we decorate your environment much more Luxurious than your Imaginations...
 			 						</div>
@@ -36,7 +36,7 @@
 			 					</div>
 			 					
 			 					<div class="panel-body">
-			 						<img class="img-responsive" src="<?php echo base_url().'assets/images/events/9.jpg'?>" />
+			 						<img class="img-responsive" src="<?php echo base_url().'assets/images/party_img.jpg'?>" />
 			 						<div class="details">
 			 							With our mannagement, make your events memorable. We fulfill all your event's requriments & comfortness under one place...	
 			 						</div>

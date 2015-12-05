@@ -1,28 +1,17 @@
-<div class="contactus">
-	
-	<div class='row contactus_header'>
-		<div class="col-lg-10 col-lg-offset-1">
-			<img class="img-responsive" src="<?php echo base_url().'assets/images/contactus.jpg' ?>"/>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-lg-5 col-lg-offset-1">
-			<h2>Contact Us</h2>
-		</div>
-		
-		<div class="col-lg-2 col-lg-offset-1">
-			<h2>Find Us</h2>
-		</div>
-	</div>
-
-	<div class='row contact-form'>
-		<div class="col-lg-6 col-lg-offset-1">
-			<form>
-				<div class="form-group">
-					<label for="yourname">Your Name</label>
-					<input type="text" id="yourname" class="form-control" placeholder="Your Name" />
+<div class="row">
+			<div class="col-lg-3 col-md-3">
+				<?php include_once(APPPATH.'views/templates/address.php'); ?>
+				
+				<div class="social">
+		  			<a class="btn btn-block btn-social btn-facebook">
+		    			<span class="fa fa-facebook"></span> Like Us On facebook
+		 			</a>	
 				</div>
+			</div>
+
+			<div class="aboutus col-lg-6 col-md-6">
+				<h2 style="color: #FFF">Contact Us</h2>
+			<form>
 				<div class="form-group">	
 					<label for="youremail">Your Email</label>
 					<input type="email" id="youremail" class="form-control" placeholder="Your Email" />
@@ -38,10 +27,24 @@
 				
 				<input type="submit" class="btn btn-danger" value="Submit" />
 			</form>
-		</div>
-		<div class="col-lg-4 map">
-			<?php if(isset($map['html'])){ echo $map['html']; } ?>
+			</div>
+	
+			<div class="col-lg-3 col-md-3">
+				<div class="list-group">
+					  <a href="<?php echo base_url().'index.php/home/index' ?>" class="list-group-item">Home</a>
+					  <a href="<?php echo base_url().'index.php/home/aboutus' ?>" class="list-group-item">About</a>
+					  <a href="<?php echo base_url().'index.php/home/gallery' ?>" class="list-group-item">Gallery</a>
+					  <a href="<?php echo base_url().'index.php/home/menus' ?>" class="list-group-item">Menus</a>
+					  <a href="#" class="list-group-item">Events</a>
+					  <a href="#" class="list-group-item">Wedding</a>
+					  <a href="#" class="list-group-item">Decore</a>
+					  <a href="<?php echo base_url().'index.php/home/contactus' ?>" class="list-group-item">Contact Us</a>
+				</div>
+				
+				<div class="social">
+					<a class="btn btn-block btn-social btn-twitter">
+		    			<span class="fa fa-twitter"></span> Tweet Us On Twitter
+		  			</a>
+				</div>
+			</div>
 		</div>	
-	</div>	
-</div>
-</div><!--contactus-->
