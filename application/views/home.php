@@ -19,9 +19,9 @@
 					  <a href="<?php echo base_url().'index.php/home/aboutus' ?>" class="list-group-item">About</a>
 					  <a href="<?php echo base_url().'index.php/home/gallery' ?>" class="list-group-item">Gallery</a>
 					  <a href="<?php echo base_url().'index.php/home/menus' ?>" class="list-group-item">Menus</a>
-					  <a href="#" class="list-group-item">Events</a>
-					  <a href="#" class="list-group-item">Wedding</a>
-					  <a href="#" class="list-group-item">Decore</a>
+					  <a href="<?php echo base_url().'index.php/home/event' ?>" class="list-group-item">Events</a>
+					  <a href="<?php echo base_url().'index.php/home/wedding' ?>" class="list-group-item">Wedding</a>
+					  <a href="<?php echo base_url().'index.php/home/decore' ?>" class="list-group-item">Decore</a>
 					  <a href="<?php echo base_url().'index.php/home/contactus' ?>" class="list-group-item">Contact Us</a>
 				</div>
 				

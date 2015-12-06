@@ -1,3 +1,17 @@
+p{
+	color: #FFF;
+}
+
+.aboutus ul{
+	color: #959488;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.aboutus ul>li{
+	color: #FFF;
+}
+
 .no-margin{
 	margin: 0px;
 }
@@ -124,6 +138,12 @@
 }
 
 .aboutus{
+	height: 395px;
+	background: #A8342C;
+	overflow: hidden;
+}
+
+.menus{
 	height: 395px;
 	background: #A8342C;
 	overflow: hidden;

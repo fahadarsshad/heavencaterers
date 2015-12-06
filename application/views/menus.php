@@ -10,7 +10,7 @@
 			</div>
 
 			<div class="aboutus col-lg-6 col-md-6">
-				<h2 style="color: #FFF">Our Menus</h2>
+			<h2 style="color: #FFF">Our Menus</h2>
 				<ul>Regular Food
 					<li>Rice Beryani</li>
 					<li>Motton</li>
@@ -36,9 +36,9 @@
 					  <a href="<?php echo base_url().'index.php/home/aboutus' ?>" class="list-group-item">About</a>
 					  <a href="<?php echo base_url().'index.php/home/gallery' ?>" class="list-group-item">Gallery</a>
 					  <a href="<?php echo base_url().'index.php/home/menus' ?>" class="list-group-item">Menus</a>
-					  <a href="#" class="list-group-item">Events</a>
-					  <a href="#" class="list-group-item">Wedding</a>
-					  <a href="#" class="list-group-item">Decore</a>
+					  <a href="<?php echo base_url().'index.php/home/event' ?>" class="list-group-item">Events</a>
+					  <a href="<?php echo base_url().'index.php/home/wedding' ?>" class="list-group-item">Wedding</a>
+					  <a href="<?php echo base_url().'index.php/home/decore' ?>" class="list-group-item">Decore</a>
 					  <a href="<?php echo base_url().'index.php/home/contactus' ?>" class="list-group-item">Contact Us</a>
 				</div>
 				
@@ -48,6 +48,4 @@
 		  			</a>
 				</div>
 			</div>
-		</div>
-		
-		<script type="text/javascript" src="<?php echo base_url().'assets/js/lightbox-plus-jquery.min.js'; ?>"></script>
+		</div>	

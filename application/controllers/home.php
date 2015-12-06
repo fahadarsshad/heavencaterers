@@ -53,5 +53,23 @@ class Home extends CI_Controller{
 		$this->load->view('findus',$data);
 		$this->load->view('templates/footer');
 	}
+	
+	public function wedding(){
+		$this->load->view('templates/header');
+		$this->load->view('wedding');
+		$this->load->view('templates/footer');
+	}
+	
+	public function event(){
+		$this->load->view('templates/header');
+		$this->load->view('event');
+		$this->load->view('templates/footer');
+	}
+	
+	public function decore(){
+		$this->load->view('templates/header');
+		$this->load->view('decore');
+		$this->load->view('templates/footer');
+	}
 }
 ?>
