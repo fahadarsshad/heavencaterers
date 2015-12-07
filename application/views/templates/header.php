@@ -21,6 +21,7 @@
 			echo $map['js'];
 		}
 		 ?>
+		 
 	</head>
 
 	<body class="body-bg-color">
